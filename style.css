@@ -1,74 +1,75 @@
+
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
 }
 
 .sidebar{
-  height: 600px;
+  height: 100vh;
   width: 200px;
   border: 1px solid black;
-  margin: 1px 1px 1px 1px;
+  margin: 1px;
+  flex-shrink: 0;
 }
-.web-intro{
-position: relative;
-  bottom: 600px;
-  left: 225px;
-  height: 350px;
-  width: 82vw;
-  border: 1px solid black;
- margin-top: 2px;
- 
-}
-.quotes{
-  position: relative;
-  bottom: 595px;
-  left: 225px;
-  height: 200px;
-  width: 82vw;
-  border: 1px solid black;
-  margin-top: 2px;
+
+.main-content {
+  flex: 1;
   display: flex;
-  padding: 10px 10px 10px 10px;
+  flex-direction: column;
+  margin: 1px;
+  gap: 2px;
+}
+
+.web-intro{
+  height: 350px;
+  border: 1px solid black;
+}
+
+.quotes{
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  padding: 10px;
   justify-content: space-around;
-  align-items: center
+  align-items: center;
 }
 
 .motivational-quotes{
   height: 80%;
   width: 30vw;
   border: 1px solid black;
- 
 }
+
 .remainder{
   height: 80%;
   width: 30vw;
   border: 1px solid black;
-  
-  
 }
+
 .progress{
-  position: relative;
-  bottom: 590px;
-  left: 225px;
   height: 400px;
-  width: 82vw;
   border: 1px solid black;
-  margin-top: 2px;
   display: flex;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   justify-content: space-around;
-  align-items: center
+  align-items: center;
 }
+
 .weekly{
   height: 80%;
   width: 30vw;
   border: 1px solid black;
 }
+
 .monthly{
   height: 80%;
   width: 30vw;
-  border: 1px solid black
+  border: 1px solid black;
 }
