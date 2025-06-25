@@ -17,7 +17,7 @@ height: 100vh;
   margin-top: 10px;
   gap: 5px;
   height: 100vh;
-  
+  flex: 1;
 }
 
 .sidebar{
@@ -28,50 +28,33 @@ height: 100vh;
   margin-left: 5px;
 }
 .web-intro{
-
-  left: 225px;
-  height: 1500px;
-  width: 82vw;
+  flex: 2;
   border: 1px solid black;
- margin-top: 2px;
- 
 }
 .quotes{
- 
- 
-  height: 700px;
- 
+  flex: 1;
   border: 1px solid black;
-
   display: flex;
-  
   justify-content: space-around;
-  align-items: center
+  align-items: center;
 }
 
 .motivational-quotes{
   height: 80%;
   width: 30vw;
   border: 1px solid black;
- 
 }
 .remainder{
   height: 80%;
   width: 30vw;
   border: 1px solid black;
-
 }
 .progress{
-
-  
-  height: 800px;
- 
+  flex: 2;
   border: 1px solid black;
- 
   display: flex;
- 
   justify-content: space-around;
-  align-items: center
+  align-items: center;
 }
 .weekly{
   height: 80%;
@@ -81,13 +64,13 @@ height: 100vh;
 .monthly{
   height: 80%;
   width: 30vw;
-  border: 1px solid black
+  border: 1px solid black;
 }
 
 .footer{
-height: 140px;
-border: 1px solid black;
- display: flex;
+  height: 140px;
+  border: 1px solid black;
+  display: flex;
   justify-content: space-around;
-  align-items: center
+  align-items: center;
 }
