@@ -32,8 +32,11 @@ flex:1;
   margin-left: 5px;
 }
 .web-intro{
-  max-height: 400px;
+  height: 400px;
   border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .quotes{
   min-height: 200px;
@@ -79,9 +82,8 @@ flex:1;
 }
 .web-intro img{
   width: 100%;
-  height: auto;
-  max-height: 100%;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
 }
  
 
