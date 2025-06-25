@@ -16,8 +16,8 @@ height: 100vh;
   margin-left: 10px;
   margin-top: 10px;
   gap: 5px;
-  height: 100vh;
   flex: 1;
+  overflow-y: auto;
 }
 
 .sidebar{
@@ -28,11 +28,11 @@ height: 100vh;
   margin-left: 5px;
 }
 .web-intro{
-  flex: 5;
+  height: 1500px;
   border: 1px solid black;
 }
 .quotes{
-  flex: 1;
+  height: 700px;
   border: 1px solid black;
   display: flex;
   justify-content: space-around;
@@ -50,7 +50,7 @@ height: 100vh;
   border: 1px solid black;
 }
 .progress{
-  flex: 2;
+  height: 800px;
   border: 1px solid black;
   display: flex;
   justify-content: space-around;
