@@ -1,0 +1,644 @@
+*{
+  margin: 0px;
+  padding: 0px;
+box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.box{
+  height: 285vh;
+  width: 98vw;
+  /* background-color: #0a0a0f; */
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  gap: 30px;
+
+
+}
+body{
+  background-color: black;
+}
+.dsaprogress{
+  height: 200px;
+  width: 98vw;
+}
+.circledsa{
+  height: 180px;
+  width: 180px;
+  border: 1px solid  #d12125;
+  border-radius: 50%;
+  margin: auto;
+position: relative;
+  bottom: 92px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.qu{
+  height: 300px;
+  width: 98vw;
+
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  gap: 60px;
+}
+.things{
+height:300px;
+  width  :500px;
+  border: 1px solid #d12125;
+  border-radius: 20px;
+}
+.relatablemain{
+  height: 300px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+
+  gap:20px;
+  border-radius: 20px;
+
+  border: 1px solid #d12125;
+}
+.topics{
+  height: 300px;
+  width: 98vw;
+  border: 1px solid #202dc6;
+
+}
+.back{
+  width: 50px;
+  height: 100px;
+  filter: drop-shadow(0 0 2px  #00E5FF) drop-shadow(0 0 2px  #00E5FF);
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+.back:hover{
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 8px  #00E5FF) drop-shadow(0 0 16px  #00E5FF)
+}
+
+.dsatext{
+  position: relative;
+  top: 40px;
+  font-size: 22px;
+  font-weight: 900;
+  color:#00E5FF ;
+}
+.per{
+  position: relative;
+  top: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  color: #4242ff;
+  text-shadow: 0 0 2px #4242ff, 0 0 2px #4242ff;
+  cursor: pointer;
+  user-select: none;
+}
+.ht{
+  margin: auto;
+  position: relative;
+  left: 140px;
+  top: 5px;
+  color: #00F0FF;
+}
+
+.list{
+
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  gap:5px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+color:  #4242ff;
+}
+.t1{
+  position: relative;
+left: 100px;
+  top: 5px;
+  color: #00F0FF;
+
+}
+.relatable{
+  font-size: 18px;
+  font-weight: 600;
+  color: #4242ff ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topics {
+  padding: 20px;
+   height: auto;
+}
+
+.topic-1 {
+  margin: auto;
+  border: 1px solid  #d12125;
+  margin-bottom: 20px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  width: 50vw;
+  border-radius: 30px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.topic-name {
+  margin-left: 10px;
+  font-size: 20px;
+   color: #00E5FF ;
+}
+
+.bar {
+  width: 100%;
+  height: 18px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 6px;
+
+}
+
+
+
+.check {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #c8c8c8;
+  cursor: pointer;
+}
+
+.expand {
+  margin-left: auto;
+  cursor: pointer;
+
+}
+
+.exp {
+  width: 24px;
+  height: 24px;
+ stroke: white;
+}
+
+.sub {
+  margin-top: 10px;
+  transition: all 0.3s ease;
+
+}
+
+.sub-1, .sub-2, .sub-3 {
+  display: none;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #202dc6;
+  width: 95%;
+}
+.sub-1{
+  height: 250px;
+  overflow-y:scroll;
+}
+.sub-2{
+  height: auto;
+
+}
+.sub-3{
+  height: 300px;
+  overflow-y:scroll;
+}
+.sheets{
+  height: 790px;
+  width: 98vw;
+  border-top: 1px solid #d12125;
+  margin-bottom : 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+   color: #00E5FF ;
+  position: relative;
+  bottom: 10px;
+}
+.link{
+  cursor: pointer;
+  color: #4242ff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.points-head{
+margin-top: 15px;
+}
+.gap{
+  margin-left: 10px;
+}
+.adjust{
+
+  display: flex;
+justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  bottom: 8px;
+}
+.yt-img{
+  height: 40px;
+  width: 40px;
+}
+.checkbox{
+  height: 20px;
+  width: 30px;
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+  position: relative;
+  right: 8px;
+}
+.topiclink{
+  font-size: 15px;
+  font-weight:600 ;
+  text-decoration: none;
+}
+.videodesc{
+  width: 700px;
+
+}
+
+.one-question{
+  height: 40px;
+margin-top: 2px;
+
+  border: 1px solid #202dc6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 580px;
+  border-radius: 20px;
+
+}
+
+.qname{
+
+font-size: 22px;
+  width: 700px;
+  height: 20px;
+}
+
+.check-img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.bar .fill {
+  background-color:#00E5FF;
+  height: 18px;
+  width: 100%;
+  position: relative;
+  transition: width 0.3s ease;
+  border-radius: 18px;
+  right: 6px;
+  text-align: center;
+}
+
+.bar .fill::after {
+  content: attr(data-percent);
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  font-size: 12px;
+  color: black;
+}
+
+
+
+
+.head{
+  color:  white;
+}
+.h3{
+  color: white;
+}
+.gapa{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  width: 580px;
+}
+
+.q1{
+
+text-decoration-line: none;
+
+ position: relative;
+  left: 12px;
+  bottom: 4px;
+color: white;
+}
+
+/* ============ RESPONSIVE DESIGN ============ */
+
+/* Mobile Devices (320px - 767px) */
+@media screen and (max-width: 767px) {
+  .box {
+
+    width: 100%;
+
+  }
+
+  .dsaprogress {
+    width: 100%;
+
+
+  }
+
+  .circledsa {
+    height: 160px;
+    width: 160px;
+    bottom: 80px;
+    margin-bottom: 30px;
+    border-width: 3px;
+  }
+
+  .dsatext {
+    font-size: 18px;
+    top: 35px;
+  }
+
+  .per {
+    font-size: 32px;
+    top: 15px;
+  }
+
+  .qu {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .things, .relatablemain {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    padding: 15px;
+  }
+
+  .ht, .t1 {
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .list {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .relatable {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  .topics {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .topic-1 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .topic-name {
+    font-size: 16px;
+  }
+
+  .bar {
+    width: 60%;
+  }
+
+  .sub-1, .sub-2, .sub-3 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .adjust {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .videodesc {
+    width: 100%;
+  }
+
+  .topiclink {
+    font-size: 14px;
+  }
+
+  .gapa {
+    width: 100%;
+  }
+
+  .one-question {
+    width: 100%;
+    height: auto;
+    min-height: 35px;
+    padding: 8px;
+  }
+
+  .qname {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .q1 {
+    left: 5px;
+    font-size: 14px;
+  }
+
+  .sheets {
+    width: 100%;
+    height: 220px;
+    padding: 20px 10px;
+  }
+
+  .link {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+}
+
+/* Tablet Devices (768px - 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .box {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .dsaprogress {
+    width: 100%;
+  }
+
+  .circledsa {
+    height: 140px;
+    width: 140px;
+    bottom: 70px;
+  }
+
+  .dsatext {
+    font-size: 18px;
+    top: 30px;
+  }
+
+  .per {
+    font-size: 32px;
+  }
+
+  .qu {
+    gap: 30px;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .things, .relatablemain {
+    width: 45%;
+    min-width: 300px;
+  }
+
+  .ht {
+    left: 60px;
+    font-size: 19px;
+  }
+
+  .t1 {
+    left: 50px;
+    font-size: 19px;
+  }
+
+  .topics {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .topic-1 {
+    width: 85%;
+    margin: 0 auto 20px auto;
+  }
+
+  .topic-name {
+    font-size: 18px;
+  }
+
+  .bar {
+    width: 65%;
+  }
+
+  .videodesc {
+    width: 500px;
+  }
+
+  .gapa {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .one-question {
+    width: 100%;
+  }
+
+  .qname {
+    width: 500px;
+  }
+
+  .sheets {
+    width: 100%;
+    padding: 30px 15px;
+  }
+}
+
+/* Small Desktop (1025px - 1200px) */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .box {
+    width: 100%;
+  }
+
+  .qu {
+    gap: 40px;
+  }
+
+  .things, .relatablemain {
+    width: 450px;
+  }
+
+  .topic-1 {
+    width: 70%;
+    margin: 0 auto 20px auto;
+  }
+
+  .gapa {
+    width: 650px;
+  }
+
+  .one-question {
+    width: 100%;
+  }
+
+  .qname {
+    width: 600px;
+  }
+}
+
+/* Large Desktop (1201px and above) - Original styles maintained */
+@media screen and (min-width: 1201px) {
+  /* Original styles already defined above */
+}
+
+/* Additional responsive utilities */
+@media screen and (max-width: 480px) {
+  .circledsa {
+    height: 140px;
+    width: 140px;
+    bottom: 70px;
+    border-width: 2px;
+  }
+
+  .dsatext {
+    font-size: 16px;
+    top: 30px;
+  }
+
+  .per {
+    font-size: 28px;
+    top: 10px;
+  }
+
+  .topic-name {
+    font-size: 14px;
+  }
+
+  .one-question {
+    min-height: 30px;
+    padding: 5px;
+  }
+
+  .q1 {
+    font-size: 12px;
+  }
+}
+

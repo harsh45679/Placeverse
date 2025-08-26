@@ -1,0 +1,487 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+.heading{
+  color: #C084FC;
+position: relative;
+  top: 5px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+  border: 1px solid black;
+}
+body{
+  height: 140vh;
+  background-color: #171717;
+
+}
+.back{
+  width: 50px;
+  height: 100px;
+  filter: drop-shadow(0 0 2px  #00E5FF) drop-shadow(0 0 2px  #00E5FF);
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+.back:hover{
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 8px  #00E5FF) drop-shadow(0 0 16px  #00E5FF)
+}
+.backbutton{
+  position: absolute;
+  top: -12px;
+  left: 20px;
+}
+.headi{
+  position: relative;
+  top: 10px;
+}
+.tagline{
+  position: relative;
+  top:30px;
+  color: #C084FC;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: center;
+
+}
+.mainbar {
+  width: min(600px, 90%);
+  margin: 50px auto;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background-color: #00E5FF;
+  transition: width 0.4s ease-in-out;
+  border-radius: 50px;
+}
+
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+
+
+.topic-1 {
+  margin: auto;
+  border: 1px solid  #d12125;
+  margin-bottom: 20px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  width: min(30vw, 90%);
+  border-radius: 30px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+}
+
+.topic-name {
+  margin-left: 10px;
+  font-size: 20px;
+   color: #00E5FF ;
+}
+
+
+
+.check {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #c8c8c8;
+  cursor: pointer;
+}
+
+.expand {
+ margin-left: 40px;
+  cursor: pointer;
+
+}
+
+.exp {
+  width: 24px;
+  height: 24px;
+ stroke: white;
+}
+
+
+.sub-1, .sub-2 {
+  display: none;
+  border: 1px solid #202dc6;
+  margin: 10px;
+  padding: 10px;
+  width: 95%;
+  background-color: #f9f9f9;
+}
+
+.sub-1.active, .sub-2.active {
+  display: block;
+}
+
+
+
+
+
+.topics {
+  padding: 20px;
+   height: auto;
+  border: 1px solid #a6a6a6;
+}
+
+
+
+
+
+.mock-main {
+  display: flex;
+  align-items: center;
+
+
+
+}
+.gape{
+  margin-left: 100px;
+}
+.gapc{
+  margin-left: 800px;
+}
+
+
+
+.mock {
+  padding: 20px;
+  border: 1px solid #a6a6a6;
+
+
+}
+
+.mock-1 {
+  margin: auto;
+  border: 1px solid #d12125;
+  padding: 10px;
+  width: min(80vw, 95%);
+  height: auto;
+}
+.question-container {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.show {
+  display: none;
+  color: red;
+  margin-top: 10px;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid blue;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .question {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+
+.que {
+  flex: 1;
+  max-width: 75%;
+  color: white;
+
+}
+
+.opti {
+  padding-left: 20px;
+}
+
+.option {
+  list-style-type: disc;
+  margin-bottom: 5px;
+}
+
+.ineteract {
+  width: 20%;
+  min-width: 150px;
+}
+
+@media (max-width: 768px) {
+  .que {
+    max-width: 100%;
+  }
+
+  .ineteract {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .opti {
+    padding-left: 15px;
+  }
+}
+.answer {
+  padding: 8px 12px;
+  background-color:  #aaa;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+
+
+
+
+.type{
+  margin-left:500px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design - Tablet */
+@media screen and (max-width: 1024px) {
+  .heading {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  .tagline {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  .topic-1 {
+    width: min(50vw, 90%);
+  }
+
+  .topic-name {
+    font-size: 18px;
+  }
+
+  .mock-1 {
+    width: min(90vw, 95%);
+  }
+
+  .type {
+    margin-left: 200px;
+    text-align: center;
+  }
+
+  .gapc {
+    margin-left: 400px;
+  }
+
+  .gape {
+    margin-left: 50px;
+  }
+}
+
+/* Responsive Design - Mobile */
+@media screen and (max-width: 768px) {
+  body {
+    height: auto;
+    min-height: 70vh;
+  }
+
+  .heading {
+    font-size: 16px;
+    padding: 0 15px;
+    margin-bottom: 10px;
+  }
+
+  .tagline {
+    font-size: 16px;
+    padding: 0 15px;
+    top: 20px;
+  }
+
+  .mainbar {
+    width: 95%;
+    margin: 30px auto;
+  }
+
+  .topic-1 {
+    width: 95%;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  .progress-bar{
+    position: relative;
+    top:10px;
+  }
+  .topic-name {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .main {
+    gap: 8px;
+  }
+
+  .mock-1 {
+    width: 90%;
+    padding: 12px;
+    margin: 10px auto;
+  }
+
+  .mock-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .mock-main .topic-name {
+    font-size: 14px;
+    margin-left: 0;
+    flex: 1;
+  }
+
+  .gapc {
+    margin-left: 0;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+
+  .gape {
+    margin-left: 0;
+    flex-shrink: 0;
+  }
+
+  .gape .exp {
+    width: 20px;
+    height: 20px;
+  }
+
+  .type {
+    margin-left: 0;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .topics {
+    padding: 15px;
+  }
+
+  .mock {
+    padding: 15px;
+  }
+
+  .backbutton {
+    top: 10px;
+    left: 10px;
+  }
+
+  .back {
+    width: 40px;
+    height: 80px;
+  }
+}
+
+/* Responsive Design - Small Mobile */
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 14px;
+  }
+
+  .tagline {
+    font-size: 14px;
+  }
+
+  .topic-name {
+    font-size: 14px;
+  }
+
+  .mainbar {
+    width: 98%;
+    margin: 20px auto;
+  }
+
+  .topic-1 {
+    width: 98%;
+    padding: 12px;
+    border-radius: 15px;
+  }
+
+  .mock-1 {
+    width: 95%;
+    padding: 10px;
+    margin: 8px auto;
+  }
+
+  .mock-main .topic-name {
+    font-size: 13px;
+  }
+
+  .gapc {
+    width: 16px;
+    height: 16px;
+  }
+
+  .gape .exp {
+    width: 18px;
+    height: 18px;
+  }
+
+  .question {
+    padding: 8px;
+    gap: 10px;
+  }
+
+  .que h2 {
+    font-size: 16px;
+  }
+
+  .option {
+    font-size: 14px;
+  }
+
+  .answer {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .type {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}

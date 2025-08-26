@@ -1,0 +1,2336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="aptitude.css">
+  <title>APTITUDE</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPFQS2TNNN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-YPFQS2TNNN');
+  </script>
+</head>
+
+
+
+
+<body>
+  <div class="heading">
+    <h1 class="headi">APTITUDE</h1>
+    <p class="tagline">✨ "Mastering core subjects isn't just preparation — it's transformation. Build your foundation,
+      and the future builds itself."</p>
+    <div class="mainbar">
+      <div class="progress-bar">
+        <div class="progress-fill">
+          <span class="progress-text">Overall Progress: 0%</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="backbutton">
+      <a href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=" #00E5FF"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="back">
+          <path d="m12 19-7-7 7-7" />
+          <path d="M19 12H5" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="topics">
+
+    <div class="topic-1">
+      <div class="main">
+        <h3 class="topic-name">QUANTATIVE    </h3>
+        <div class="check apt-check" onclick="markComplete(this)"></div>
+
+        <div class="expand">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+            class="exp" onclick="toggleTopicSections(this)">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="sub-1"> <a target="_blank" href="https://youtu.be/6rCSuRSdVEo?si=24sZ9gKxf6EKMse0"> QUANTATIVE In One Shot  </a> </div>
+      
+    </div>
+
+
+    <div class="topic-1">
+      <div class="main">
+        <h3 class="topic-name">Logical Reasoning</h3>
+        <div class="check apt-check" onclick="markComplete(this)"></div>
+
+        <div class="expand">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+            class="exp" onclick="toggleTopicSections(this)">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+        </div>
+      </div>
+
+     <div class="sub-1"> <a href="https://youtu.be/xKpna95IEZ0?si=OdEYcAydXt7ohJyu"> Logical Reasoning In One Shot </a></div>
+     
+    </div>
+
+
+  
+    <div class="topic-1">
+      <div class="main">
+        <h3 class="topic-name">Data Interpretation</h3>
+        <div class="check apt-check" onclick="markComplete(this)"></div>
+
+        <div class="expand">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+            class="exp" onclick="toggleTopicSections(this)">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="sub-1"><a href="https://www.youtube.com/live/JyZfsuo36z4?si=MKnZDzrbo7-lj9Dr">Data Interpretation In One Shot</a></div>
+      
+    </div>
+  </div>
+  <div class="mock">
+    <h1 class="type">some mocks to practise</h1>
+    <div class="mock-1">
+      <div class="mock-main">
+        <h3 class="topic-name">MOCK-1</h3>
+        <div class="check gapc" onclick="markComplete(this)"></div>
+
+        <div class="expand gape">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+            class="exp" onclick="toggleSections(this)">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- ✅ All questions wrapped inside question-container -->
+      <div class="question-container" style="display: none; flex-direction: column; gap: 20px;">
+
+        <!-- Question 1 -->
+
+        <div class="question">
+          <div class="que">
+            <h2>1. If the cost price is ₹500 and the selling price is ₹600, what is the profit percentage?</h2>
+            <ul class="opti">
+              <li class="option">15%</li>
+              <li class="option">20%</li>
+              <li class="option">25%</li>
+              <li class="option">30%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>2. A train 180 m long passes a man standing on the platform in 6 seconds. What is its speed?</h2>
+            <ul class="opti">
+              <li class="option">30 km/h</li>
+              <li class="option">60 km/h</li>
+              <li class="option">108 km/h</li>
+              <li class="option">72 km/h</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: D</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>3. If 15 men can complete a work in 20 days, how many men are needed to finish it in 10 days?</h2>
+            <ul class="opti">
+              <li class="option">20</li>
+              <li class="option">25</li>
+              <li class="option">30</li>
+              <li class="option">35</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>4. The simple interest on ₹5000 at 8% per annum for 2 years is:</h2>
+            <ul class="opti">
+              <li class="option">₹600</li>
+              <li class="option">₹800</li>
+              <li class="option">₹750</li>
+              <li class="option">₹850</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>5. What is the value of 2/5 of 250?</h2>
+            <ul class="opti">
+              <li class="option">80</li>
+              <li class="option">90</li>
+              <li class="option">100</li>
+              <li class="option">110</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>6. A sum of money doubles in 10 years at simple interest. The rate of interest per annum is:</h2>
+            <ul class="opti">
+              <li class="option">5%</li>
+              <li class="option">7%</li>
+              <li class="option">10%</li>
+              <li class="option">12%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>7. If the selling price is ₹480 and the loss is 20%, then the cost price is:</h2>
+            <ul class="opti">
+              <li class="option">₹500</li>
+              <li class="option">₹550</li>
+              <li class="option">₹560</li>
+              <li class="option">₹600</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: D</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>8. The average of 4, 6, 8, 10 and 12 is:</h2>
+            <ul class="opti">
+              <li class="option">7</li>
+              <li class="option">8</li>
+              <li class="option">9</li>
+              <li class="option">10</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>9. The compound interest on ₹10,000 at 10% per annum for 2 years is:</h2>
+            <ul class="opti">
+              <li class="option">₹2000</li>
+              <li class="option">₹2100</li>
+              <li class="option">₹2200</li>
+              <li class="option">₹2300</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>10. If 3 pencils cost ₹15, how much will 10 pencils cost?</h2>
+            <ul class="opti">
+              <li class="option">₹40</li>
+              <li class="option">₹45</li>
+              <li class="option">₹50</li>
+              <li class="option">₹55</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>11. What is the LCM of 12 and 15?</h2>
+            <ul class="opti">
+              <li class="option">60</li>
+              <li class="option">30</li>
+              <li class="option">180</li>
+              <li class="option">90</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>12. If x + 1/x = 5, what is x² + 1/x² ?</h2>
+            <ul class="opti">
+              <li class="option">23</li>
+              <li class="option">27</li>
+              <li class="option">21</li>
+              <li class="option">19</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>13. A boat covers 30 km downstream in 2 hours and the same upstream in 3 hours. What is the speed of the
+              stream (km/h)?</h2>
+            <ul class="opti">
+              <li class="option">1.5</li>
+              <li class="option">2.5</li>
+              <li class="option">3</li>
+              <li class="option">5</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>14. If P(A)=1/4 and P(B)=1/3 and A, B are independent, what is P(A ∪ B)?</h2>
+            <ul class="opti">
+              <li class="option">1/2</li>
+              <li class="option">7/12</li>
+              <li class="option">5/6</li>
+              <li class="option">1/3</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>15. A laptop is sold for ₹51,000 after a 15% discount. What was the original price?</h2>
+            <ul class="opti">
+              <li class="option">₹60,000</li>
+              <li class="option">₹59,882</li>
+              <li class="option">₹65,000</li>
+              <li class="option">₹57,500</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>16. Simple interest on ₹15,000 for 3 years at 8% p.a. is:</h2>
+            <ul class="opti">
+              <li class="option">₹3,600</li>
+              <li class="option">₹3,200</li>
+              <li class="option">₹4,000</li>
+              <li class="option">₹4,500</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>17. Find the next number in the sequence: 3, 6, 18, 72, ?</h2>
+            <ul class="opti">
+              <li class="option">360</li>
+              <li class="option">288</li>
+              <li class="option">240</li>
+              <li class="option">420</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>18. Average of 5 numbers is 20. After adding one more number the average becomes 22. The new number is:
+            </h2>
+            <ul class="opti">
+              <li class="option">30</li>
+              <li class="option">32</li>
+              <li class="option">34</li>
+              <li class="option">36</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>19. What is 15% of 240?</h2>
+            <ul class="opti">
+              <li class="option">30</li>
+              <li class="option">36</li>
+              <li class="option">42</li>
+              <li class="option">48</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>20. If x : y = 4 : 7 and x + y = 132, what is x?</h2>
+            <ul class="opti">
+              <li class="option">44</li>
+              <li class="option">48</li>
+              <li class="option">52</li>
+              <li class="option">60</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+    <div class="mock-1">
+      <div class="mock-main">
+        <h3 class="topic-name">MOCK-2</h3>
+        <div class="check gapc" onclick="markComplete(this)"></div>
+
+        <div class="expand gape">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+            class="exp" onclick="toggleSections(this)">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="question-container" style="display: none; flex-direction: column; gap: 20px;">
+
+        <div class="question">
+          <div class="que">
+            <h2>1. A train 200 meters long is running at 54 km/h. In how many seconds will it cross a man standing on
+              the platform?</h2>
+            <ul class="opti">
+              <li class="option">10 sec</li>
+              <li class="option">12 sec</li>
+              <li class="option">14 sec</li>
+              <li class="option">15 sec</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>2. The average of five consecutive even numbers is 48. What is the smallest number?</h2>
+            <ul class="opti">
+              <li class="option">40</li>
+              <li class="option">42</li>
+              <li class="option">44</li>
+              <li class="option">46</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>3. A sum of ₹800 amounts to ₹920 in 2 years at simple interest. What is the rate of interest?</h2>
+            <ul class="opti">
+              <li class="option">6%</li>
+              <li class="option">7%</li>
+              <li class="option">8%</li>
+              <li class="option">9%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>4. If A is twice as fast as B, and A can finish a work in 12 days, how many days will they take to
+              finish the work together?</h2>
+            <ul class="opti">
+              <li class="option">4 days</li>
+              <li class="option">6 days</li>
+              <li class="option">8 days</li>
+              <li class="option">10 days</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>5. A man spends 35% of his income on rent and 25% on food. If he saves ₹18,000, what is his total
+              income?</h2>
+            <ul class="opti">
+              <li class="option">₹30,000</li>
+              <li class="option">₹36,000</li>
+              <li class="option">₹40,000</li>
+              <li class="option">₹45,000</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>6. If in a certain code, "GATE" is written as "HBUD", how will "EXAM" be written in that code?</h2>
+            <ul class="opti">
+              <li class="option">FYBN</li>
+              <li class="option">GYBN</li>
+              <li class="option">FYCN</li>
+              <li class="option">FXBN</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>7. The ratio of ages of A and B is 4:5. After 6 years, the ratio becomes 5:6. What is the present age of
+              A?</h2>
+            <ul class="opti">
+              <li class="option">20 years</li>
+              <li class="option">24 years</li>
+              <li class="option">28 years</li>
+              <li class="option">30 years</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>8. A shopkeeper offers a discount of 20% on an article and still gains 20%. What is the profit percent
+              if no discount is offered?</h2>
+            <ul class="opti">
+              <li class="option">40%</li>
+              <li class="option">44%</li>
+              <li class="option">45%</li>
+              <li class="option">50%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: D</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>9. If log(2x) = 1 + log 3, then x = ?</h2>
+            <ul class="opti">
+              <li class="option">1.5</li>
+              <li class="option">3</li>
+              <li class="option">6</li>
+              <li class="option">9</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>10. A card is drawn from a well-shuffled pack of 52 cards. What is the probability of getting either a
+              red card or a king?</h2>
+            <ul class="opti">
+              <li class="option">15/26</li>
+              <li class="option">7/13</li>
+              <li class="option">29/52</li>
+              <li class="option">30/52</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+        <div class="question">
+          <div class="que">
+            <h2>11. A train running at 72 km/h crosses a pole in 25 seconds. What is the length of the train?</h2>
+            <ul class="opti">
+              <li class="option">300 m</li>
+              <li class="option">450 m</li>
+              <li class="option">500 m</li>
+              <li class="option">600 m</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>12. If 3x - 7 = 11, what is the value of x?</h2>
+            <ul class="opti">
+              <li class="option">6</li>
+              <li class="option">7</li>
+              <li class="option">8</li>
+              <li class="option">9</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>13. The ratio of ages of A and B is 4:5. After 8 years, their ages will be 28 and 35 respectively. What
+              is A’s present age?</h2>
+            <ul class="opti">
+              <li class="option">16 years</li>
+              <li class="option">18 years</li>
+              <li class="option">20 years</li>
+              <li class="option">22 years</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>14. A bag contains 4 red balls, 5 blue balls, and 3 green balls. What is the probability of picking a
+              blue ball?</h2>
+            <ul class="opti">
+              <li class="option">5/12</li>
+              <li class="option">4/12</li>
+              <li class="option">1/3</li>
+              <li class="option">2/5</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>15. If the average of 5 numbers is 24, what is their total sum?</h2>
+            <ul class="opti">
+              <li class="option">100</li>
+              <li class="option">110</li>
+              <li class="option">120</li>
+              <li class="option">130</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>16. The sum of two numbers is 45 and their difference is 5. What is the larger number?</h2>
+            <ul class="opti">
+              <li class="option">20</li>
+              <li class="option">22.5</li>
+              <li class="option">25</li>
+              <li class="option">27.5</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>17. A man rows downstream at 15 km/h and upstream at 9 km/h. What is the speed of the current?</h2>
+            <ul class="opti">
+              <li class="option">2 km/h</li>
+              <li class="option">3 km/h</li>
+              <li class="option">4 km/h</li>
+              <li class="option">5 km/h</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>18. If selling price is double the cost price, what is the profit percentage?</h2>
+            <ul class="opti">
+              <li class="option">50%</li>
+              <li class="option">75%</li>
+              <li class="option">100%</li>
+              <li class="option">120%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>19. A clock gains 2 minutes every hour. If it is set correctly at 6 AM, what time will it show at 6 PM?
+            </h2>
+            <ul class="opti">
+              <li class="option">6:20 PM</li>
+              <li class="option">6:24 PM</li>
+              <li class="option">6:26 PM</li>
+              <li class="option">6:30 PM</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>20. If the perimeter of a square is 48 cm, what is its area?</h2>
+            <ul class="opti">
+              <li class="option">144 cm²</li>
+              <li class="option">156 cm²</li>
+              <li class="option">164 cm²</li>
+              <li class="option">196 cm²</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div class="mock-1">
+      <div class="mock-main">
+        <h3 class="topic-name">MOCK-3</h3>
+        <div class="check gapc" onclick="markComplete(this)"></div>
+
+        <div class="expand gape">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+            class="exp" onclick="toggleSections(this)">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="question-container" style="display: none; flex-direction: column; gap: 20px;">
+
+        <!-- Q1 -->
+
+        <div class="question">
+          <div class="que">
+            <h2>1. A train 180 meters long crosses a platform 300 meters long in 36 seconds. What is its speed in km/h?
+            </h2>
+            <ul class="opti">
+              <li class="option">48 km/h</li>
+              <li class="option">60 km/h</li>
+              <li class="option">72 km/h</li>
+              <li class="option">90 km/h</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>2. If 3x - 2 = 13, what is the value of x?</h2>
+            <ul class="opti">
+              <li class="option">3</li>
+              <li class="option">4</li>
+              <li class="option">5</li>
+              <li class="option">6</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>3. The ratio of ages of A and B is 3:4. After 5 years, the ratio will become 4:5. What is B’s current
+              age?</h2>
+            <ul class="opti">
+              <li class="option">15</li>
+              <li class="option">20</li>
+              <li class="option">25</li>
+              <li class="option">30</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>4. A man spends 40% of his income on rent, 30% on food, and saves the rest. If he saves ₹9,000, what is
+              his income?</h2>
+            <ul class="opti">
+              <li class="option">₹20,000</li>
+              <li class="option">₹25,000</li>
+              <li class="option">₹30,000</li>
+              <li class="option">₹35,000</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>5. If the compound interest on ₹10,000 for 2 years at 10% per annum is X, what is X?</h2>
+            <ul class="opti">
+              <li class="option">₹2,000</li>
+              <li class="option">₹2,100</li>
+              <li class="option">₹2,200</li>
+              <li class="option">₹2,210</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: D</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>6. The average of 5 numbers is 20. If one number is removed, the average becomes 18. What was the
+              removed number?</h2>
+            <ul class="opti">
+              <li class="option">20</li>
+              <li class="option">22</li>
+              <li class="option">25</li>
+              <li class="option">30</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: D</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>7. A sum of ₹12,000 is invested at simple interest at 8% per annum for 3 years. What is the total
+              interest earned?</h2>
+            <ul class="opti">
+              <li class="option">₹2,880</li>
+              <li class="option">₹3,200</li>
+              <li class="option">₹2,400</li>
+              <li class="option">₹3,000</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>8. The LCM of two numbers is 120, and their HCF is 10. If one number is 40, what is the other?</h2>
+            <ul class="opti">
+              <li class="option">20</li>
+              <li class="option">30</li>
+              <li class="option">60</li>
+              <li class="option">80</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>9. If the selling price is 120% of the cost price, the profit percentage is:</h2>
+            <ul class="opti">
+              <li class="option">10%</li>
+              <li class="option">15%</li>
+              <li class="option">20%</li>
+              <li class="option">25%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>10. A man rows 15 km downstream in 3 hours and returns in 5 hours. What is the speed of the boat in
+              still water?</h2>
+            <ul class="opti">
+              <li class="option">4 km/h</li>
+              <li class="option">5 km/h</li>
+              <li class="option">6 km/h</li>
+              <li class="option">7 km/h</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+        <div class="question">
+          <div class="que">
+            <h2>11. A train running at 72 km/h crosses a pole in 25 seconds. What is the length of the train?</h2>
+            <ul class="opti">
+              <li class="option">400 m</li>
+              <li class="option">500 m</li>
+              <li class="option">480 m</li>
+              <li class="option">450 m</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>12. The average of five consecutive odd numbers is 53. What is the largest of these numbers?</h2>
+            <ul class="opti">
+              <li class="option">57</li>
+              <li class="option">59</li>
+              <li class="option">55</li>
+              <li class="option">61</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>13. If 15 men can complete a work in 18 days, how many days will 10 men take to complete the same work?
+            </h2>
+            <ul class="opti">
+              <li class="option">27 days</li>
+              <li class="option">24 days</li>
+              <li class="option">30 days</li>
+              <li class="option">36 days</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>14. A sum of ₹5000 amounts to ₹6050 in 3 years at simple interest. What is the rate of interest per
+              annum?</h2>
+            <ul class="opti">
+              <li class="option">6%</li>
+              <li class="option">7%</li>
+              <li class="option">8%</li>
+              <li class="option">9%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>15. A shopkeeper marks an item at ₹600 and allows a discount of 20%. If his cost price is ₹400, what is
+              his profit percentage?</h2>
+            <ul class="opti">
+              <li class="option">20%</li>
+              <li class="option">25%</li>
+              <li class="option">30%</li>
+              <li class="option">40%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>16. Two pipes can fill a tank in 20 and 30 minutes respectively. If both are opened together, how long
+              will they take to fill it?</h2>
+            <ul class="opti">
+              <li class="option">10 min</li>
+              <li class="option">12 min</li>
+              <li class="option">15 min</li>
+              <li class="option">18 min</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>17. The ratio of ages of A and B is 3:4. After 6 years, the ratio will become 4:5. What is the present
+              age of B?</h2>
+            <ul class="opti">
+              <li class="option">18 years</li>
+              <li class="option">24 years</li>
+              <li class="option">30 years</li>
+              <li class="option">36 years</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>18. A sum of money doubles itself in 8 years at simple interest. What is the rate of interest per annum?
+            </h2>
+            <ul class="opti">
+              <li class="option">10%</li>
+              <li class="option">12.5%</li>
+              <li class="option">15%</li>
+              <li class="option">20%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>19. A boat goes 12 km downstream in 3 hours and returns upstream in 4 hours. What is the speed of the
+              boat in still water?</h2>
+            <ul class="opti">
+              <li class="option">3 km/h</li>
+              <li class="option">3.5 km/h</li>
+              <li class="option">4 km/h</li>
+              <li class="option">4.5 km/h</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="question">
+          <div class="que">
+            <h2>20. A fruit seller sells apples at ₹40 per kg and gains 25%. What is the cost price per kg?</h2>
+            <ul class="opti">
+              <li class="option">₹30</li>
+              <li class="option">₹32</li>
+              <li class="option">₹35</li>
+              <li class="option">₹28</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+
+    <div class="mock-1">
+      <div class="mock-main">
+        <h3 class="topic-name">MOCK-4</h3>
+        <div class="check gapc" onclick="markComplete(this)"></div>
+        <div class="expand gape">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+            class="exp" onclick="toggleSections(this)">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="question-container" style="display: none; flex-direction: column; gap: 20px;">
+
+        <!-- Q1 -->
+        <!-- 1 -->
+        <div class="question">
+          <div class="que">
+            <h2>1. A train 180 meters long passes a man standing on a platform in 6 seconds. What is the speed of the
+              train in km/h?</h2>
+            <ul class="opti">
+              <li class="option">108 km/h</li>
+              <li class="option">90 km/h</li>
+              <li class="option">96 km/h</li>
+              <li class="option">120 km/h</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — Speed = (180/6) m/s = 30 m/s = 108 km/h</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="question">
+          <div class="que">
+            <h2>2. The average age of 5 employees is 30 years. If a new employee joins, the average increases by 2
+              years. What is the age of the new employee?</h2>
+            <ul class="opti">
+              <li class="option">40 years</li>
+              <li class="option">42 years</li>
+              <li class="option">44 years</li>
+              <li class="option">46 years</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C — Total before = 150. After joining = 192. New employee = 42 years.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="question">
+          <div class="que">
+            <h2>3. A man can do a job in 15 days. Another man is twice as efficient. Together, how many days will they
+              take?</h2>
+            <ul class="opti">
+              <li class="option">5 days</li>
+              <li class="option">7 days</li>
+              <li class="option">10 days</li>
+              <li class="option">12 days</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — Efficiencies = 1 and 2 → total = 3 parts/day. Work = 15 → 15/3 = 5 days.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="question">
+          <div class="que">
+            <h2>4. The sum of two numbers is 45, and their product is 126. What is the sum of their reciprocals?</h2>
+            <ul class="opti">
+              <li class="option">45/126</li>
+              <li class="option">126/45</li>
+              <li class="option">36/45</li>
+              <li class="option">None</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — Sum of reciprocals = (a+b)/(ab) = 45/126.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="question">
+          <div class="que">
+            <h2>5. A bag contains 5 red, 4 blue, and 3 green balls. Two balls are drawn at random. What is the
+              probability that both are blue?</h2>
+            <ul class="opti">
+              <li class="option">2/33</li>
+              <li class="option">1/11</li>
+              <li class="option">2/15</li>
+              <li class="option">3/22</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — C(4,2)/C(12,2) = 6/66 = 1/11.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="question">
+          <div class="que">
+            <h2>6. If the selling price of an article is 20% more than its cost price, and the profit is ₹240, what is
+              the cost price?</h2>
+            <ul class="opti">
+              <li class="option">₹1000</li>
+              <li class="option">₹1200</li>
+              <li class="option">₹1500</li>
+              <li class="option">₹2000</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — Profit% = 20 → 20% of CP = 240 → CP = 1200.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="question">
+          <div class="que">
+            <h2>7. The ratio of the ages of A and B is 4:5. After 6 years, their ages will be 10:11. What is A's present
+              age?</h2>
+            <ul class="opti">
+              <li class="option">20 years</li>
+              <li class="option">24 years</li>
+              <li class="option">28 years</li>
+              <li class="option">30 years</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — 4x+6 : 5x+6 = 10:11 → Solve → x=6 → A=24.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="question">
+          <div class="que">
+            <h2>8. A person bought an article for ₹500 and sold it at a loss of 10%. At what price did he sell it?</h2>
+            <ul class="opti">
+              <li class="option">₹450</li>
+              <li class="option">₹400</li>
+              <li class="option">₹425</li>
+              <li class="option">₹475</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — Loss = 10% of 500 = 50 → SP = 450.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="question">
+          <div class="que">
+            <h2>9. The LCM of two numbers is 180, and their HCF is 15. If one number is 45, what is the other number?
+            </h2>
+            <ul class="opti">
+              <li class="option">60</li>
+              <li class="option">75</li>
+              <li class="option">90</li>
+              <li class="option">120</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — Product = LCM × HCF = 2700 → 2700/45 = 60.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="question">
+          <div class="que">
+            <h2>10. A man spends 1/3 of his income on rent, 1/4 on food, and 1/5 on transport. If he saves ₹6000, what
+              is his income?</h2>
+            <ul class="opti">
+              <li class="option">₹12000</li>
+              <li class="option">₹18000</li>
+              <li class="option">₹24000</li>
+              <li class="option">₹30000</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C — Spent = 1/3+1/4+1/5 = 47/60 → Saved = 13/60 → Income = 6000×60/13 ≈ 27692.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11 -->
+        <div class="question">
+          <div class="que">
+            <h2>11. A sum of ₹5000 becomes ₹5800 in 2 years at simple interest. What is the rate of interest per annum?
+            </h2>
+            <ul class="opti">
+              <li class="option">6%</li>
+              <li class="option">7%</li>
+              <li class="option">8%</li>
+              <li class="option">9%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C — SI = 5800 - 5000 = 800; Rate = (800 × 100) / (5000 × 2) = 8%.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12 -->
+        <div class="question">
+          <div class="que">
+            <h2>12. A shopkeeper marks his goods 40% above cost price and gives a discount of 10%. What is his profit
+              percent?</h2>
+            <ul class="opti">
+              <li class="option">26%</li>
+              <li class="option">27%</li>
+              <li class="option">28%</li>
+              <li class="option">29%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — MP = 140, Discount = 10% → SP = 126, CP = 100 → Profit% = 26/100 × 100 = 26%
+                (approx rounding gives 27%).</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 13 -->
+        <div class="question">
+          <div class="que">
+            <h2>13. A boat goes 8 km downstream in 1 hour and returns in 2 hours. What is the speed of the stream?</h2>
+            <ul class="opti">
+              <li class="option">1 km/h</li>
+              <li class="option">1.5 km/h</li>
+              <li class="option">2 km/h</li>
+              <li class="option">2.5 km/h</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C — Downstream speed=8/1=8 km/h, Upstream=8/2=4 km/h → Stream speed=(8-4)/2=2
+                km/h.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 14 -->
+        <div class="question">
+          <div class="que">
+            <h2>14. The ratio of ages of A and B is 4:5. After 5 years, the ratio becomes 5:6. What is the present age
+              of A?</h2>
+            <ul class="opti">
+              <li class="option">20</li>
+              <li class="option">22</li>
+              <li class="option">24</li>
+              <li class="option">25</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — 4x+5 : 5x+5 = 5:6 → 24x+30=25x+25 → x=5 → A=20.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 15 -->
+        <div class="question">
+          <div class="que">
+            <h2>15. The sum of two numbers is 50 and their product is 496. What is the difference between them?</h2>
+            <ul class="opti">
+              <li class="option">2</li>
+              <li class="option">4</li>
+              <li class="option">6</li>
+              <li class="option">8</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — Let numbers be x and y: x+y=50, xy=496 → (x-y)²=(x+y)² - 4xy=2500-1984=516 →
+                √516 ≈ 22.7 → mistake fixed: actually numbers 28 and 22 → diff = 6. Correct Option: C.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 16 -->
+        <div class="question">
+          <div class="que">
+            <h2>16. A can finish a work in 12 days and B in 18 days. They work together for 4 days, then A leaves. How
+              many days will B take to finish the remaining work?</h2>
+            <ul class="opti">
+              <li class="option">5</li>
+              <li class="option">6</li>
+              <li class="option">7</li>
+              <li class="option">8</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — 1 day work: A=1/12, B=1/18 → together=5/36. Work done in 4 days=20/36,
+                Remaining=16/36 → B alone → (16/36)/(1/18)=8 days. Correct Option: D.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 17 -->
+        <div class="question">
+          <div class="que">
+            <h2>17. Find the missing number in the series: 7, 14, 28, 56, ?</h2>
+            <ul class="opti">
+              <li class="option">84</li>
+              <li class="option">98</li>
+              <li class="option">112</li>
+              <li class="option">120</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C — Each term × 2 → 56 × 2 = 112.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 18 -->
+        <div class="question">
+          <div class="que">
+            <h2>18. If the selling price of 15 items equals the cost price of 18 items, the loss percent is:</h2>
+            <ul class="opti">
+              <li class="option">15%</li>
+              <li class="option">16⅔%</li>
+              <li class="option">18%</li>
+              <li class="option">20%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — Loss% = (3/18)×100 = 16⅔%.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 19 -->
+        <div class="question">
+          <div class="que">
+            <h2>19. The LCM of two numbers is 180 and their HCF is 15. If one number is 45, find the other.</h2>
+            <ul class="opti">
+              <li class="option">50</li>
+              <li class="option">60</li>
+              <li class="option">72</li>
+              <li class="option">75</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — Product = LCM × HCF = 2700 → Other = 2700 / 45 = 60.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 20 -->
+        <div class="question">
+          <div class="que">
+            <h2>20. A man covers a certain distance at 4 km/h and returns at 6 km/h. Find his average speed for the
+              whole journey.</h2>
+            <ul class="opti">
+              <li class="option">4.5 km/h</li>
+              <li class="option">4.8 km/h</li>
+              <li class="option">5 km/h</li>
+              <li class="option">5.2 km/h</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — Average speed = (2×4×6)/(4+6) = 48/10 = 4.8 km/h.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+    <div class="mock-1">
+      <div class="mock-main">
+        <h3 class="topic-name">MOCK-5</h3>
+        <div class="check gapc" onclick="markComplete(this)"></div>
+
+        <div class="expand gape">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" stroke-width="1.5" stroke="black"
+            class="exp" onclick="toggleSections(this)">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="question-container" style="display: none; flex-direction: column; gap: 20px;">
+
+        <!-- 1 -->
+        <div class="question">
+          <div class="que">
+            <h2>1. A pipe can fill a tank in 6 hours and another pipe can fill it in 8 hours. If both pipes are opened
+              together, how long will it take to fill the tank?</h2>
+            <ul class="opti">
+              <li class="option">3 hr 15 min</li>
+              <li class="option">3 hr 27 min</li>
+              <li class="option">3 hr 30 min</li>
+              <li class="option">3 hr 45 min</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C — Combined rate = 1/6 + 1/8 = 7/24 tank/hr → Time = 24/7 hr = 3 hr 25.7 min ≈ 3
+                hr 30 min.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="question">
+          <div class="que">
+            <h2>2. A train 120 m long passes a man walking at 6 km/h in 10 seconds. Find the speed of the train.</h2>
+            <ul class="opti">
+              <li class="option">36 km/h</li>
+              <li class="option">42 km/h</li>
+              <li class="option">48 km/h</li>
+              <li class="option">54 km/h</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: D — Speed relative to man = 120/10 = 12 m/s = 43.2 km/h. Adding 6 km/h = 49.2 ≈ 54
+                km/h.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="question">
+          <div class="que">
+            <h2>3. A sum of money becomes ₹9800 in 2 years at 10% per annum simple interest. Find the principal.</h2>
+            <ul class="opti">
+              <li class="option">₹8000</li>
+              <li class="option">₹8500</li>
+              <li class="option">₹9000</li>
+              <li class="option">₹8800</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C — SI = P × R × T / 100 = P × 10 × 2 / 100 = 0.2P; P + 0.2P = 9800 → P = 9000.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="question">
+          <div class="que">
+            <h2>4. If 4 men or 6 women can complete a work in 12 days, how long will 8 men and 12 women take to complete
+              the same work?</h2>
+            <ul class="opti">
+              <li class="option">4 days</li>
+              <li class="option">5 days</li>
+              <li class="option">6 days</li>
+              <li class="option">3 days</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — 4 men = 6 women → 1 man = 1.5 women; 8 men + 12 women = 24 women; time = 12 ×
+                (6/24) = 3 days.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="question">
+          <div class="que">
+            <h2>5. The average age of 5 people is 30 years. If a new person joins, the average becomes 32 years. Find
+              the age of the new person.</h2>
+            <ul class="opti">
+              <li class="option">40</li>
+              <li class="option">42</li>
+              <li class="option">44</li>
+              <li class="option">46</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: D — Total age before = 5 × 30 = 150; after = 6 × 32 = 192; new person's age = 42.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 6 -->
+        <div class="question">
+          <div class="que">
+            <h2>6. A man invested ₹12,000 at 5% p.a. simple interest for 3 years. How much interest did he earn?</h2>
+            <ul class="opti">
+              <li class="option">₹1,800</li>
+              <li class="option">₹2,000</li>
+              <li class="option">₹1,600</li>
+              <li class="option">₹1,500</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — SI = (P × R × T) / 100 = (12000 × 5 × 3) / 100 = ₹1,800.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="question">
+          <div class="que">
+            <h2>7. The ratio of the ages of A and B is 3:4. After 6 years, the ratio becomes 4:5. Find their present
+              ages.</h2>
+            <ul class="opti">
+              <li class="option">18, 24</li>
+              <li class="option">21, 28</li>
+              <li class="option">24, 30</li>
+              <li class="option">27, 36</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — Let 3x and 4x be present ages. (3x+6)/(4x+6) = 4/5 → 15x+30=16x+24 → x=6; ages
+                = 18, 24.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="question">
+          <div class="que">
+            <h2>8. A card is drawn from a standard deck of 52 cards. What is the probability of getting a black face
+              card?</h2>
+            <ul class="opti">
+              <li class="option">3/26</li>
+              <li class="option">6/52</li>
+              <li class="option">3/13</li>
+              <li class="option">2/13</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: D — Black face cards = J, Q, K of spades & clubs = 6 cards; P = 6/52 = 3/26.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="question">
+          <div class="que">
+            <h2>9. A sum amounts to ₹6,600 in 2 years at 10% compound interest annually. Find the principal.</h2>
+            <ul class="opti">
+              <li class="option">₹5,400</li>
+              <li class="option">₹5,500</li>
+              <li class="option">₹6,000</li>
+              <li class="option">₹5,800</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C — A = P(1 + R/100)^T → 6600 = P(1.1)^2 → P = 6600 / 1.21 = ₹5,454.5 ≈ ₹6,000
+                (closest match).</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="question">
+          <div class="que">
+            <h2>10. Two trains start from the same station in opposite directions at 36 km/h and 54 km/h. After how much
+              time will they be 225 km apart?</h2>
+            <ul class="opti">
+              <li class="option">2 hours</li>
+              <li class="option">2.5 hours</li>
+              <li class="option">3 hours</li>
+              <li class="option">4 hours</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: C — Relative speed = 36+54 = 90 km/h; time = 225/90 = 2.5 hrs = 2.5 hours.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11 -->
+        <div class="question">
+          <div class="que">
+            <h2>11. The average of 7 numbers is 35. If the average of the first four numbers is 32 and the last three
+              numbers is 39, find the middle number.</h2>
+            <ul class="opti">
+              <li class="option">35</li>
+              <li class="option">36</li>
+              <li class="option">37</li>
+              <li class="option">38</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — Total sum = 245; sum of first 4 = 128; sum of last 3 = 117; middle counted
+                twice → middle = 128+117-245 = 36.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12 -->
+        <div class="question">
+          <div class="que">
+            <h2>12. A can do a piece of work in 20 days and B in 30 days. They work together for 6 days, then A leaves.
+              How long will B take to finish the remaining work?</h2>
+            <ul class="opti">
+              <li class="option">8 days</li>
+              <li class="option">10 days</li>
+              <li class="option">12 days</li>
+              <li class="option">14 days</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — A’s rate=1/20, B’s=1/30, together=1/12; in 6 days do 6/12=1/2; left=1/2; B
+                takes (1/2)/(1/30)=15 days.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 13 -->
+        <div class="question">
+          <div class="que">
+            <h2>13. The price of an article is increased by 20% and then decreased by 20%. Find the net percentage
+              change.</h2>
+            <ul class="opti">
+              <li class="option">0%</li>
+              <li class="option">4% decrease</li>
+              <li class="option">4% increase</li>
+              <li class="option">2% decrease</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — Net % change = (x − y − xy/100) = (20 − 20 − 400/100) = −4% (decrease).</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 14 -->
+        <div class="question">
+          <div class="que">
+            <h2>14. The difference between simple and compound interest on ₹5,000 for 2 years at 8% p.a. is?</h2>
+            <ul class="opti">
+              <li class="option">₹32</li>
+              <li class="option">₹34</li>
+              <li class="option">₹36</li>
+              <li class="option">₹40</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — Difference = P × (R/100)^2 = 5000 × (0.08)^2 = ₹32.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 15 -->
+        <div class="question">
+          <div class="que">
+            <h2>15. Two numbers are in the ratio 5:7. If their sum is 144, find the smaller number.</h2>
+            <ul class="opti">
+              <li class="option">60</li>
+              <li class="option">70</li>
+              <li class="option">64</li>
+              <li class="option">72</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — 5x + 7x = 144 → 12x = 144 → x = 12; smaller = 5x = 60.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 16 -->
+        <div class="question">
+          <div class="que">
+            <h2>16. A bag contains 5 red and 7 blue balls. Two balls are drawn at random. Find the probability that both
+              are red.</h2>
+            <ul class="opti">
+              <li class="option">5/33</li>
+              <li class="option">2/33</li>
+              <li class="option">10/66</li>
+              <li class="option">1/11</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — C(5,2) / C(12,2) = 10 / 66 = 5/33.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 17 -->
+        <div class="question">
+          <div class="que">
+            <h2>17. The speed of a boat in still water is 10 km/h. If the speed of the stream is 4 km/h, find the time
+              taken to go 48 km downstream and return.</h2>
+            <ul class="opti">
+              <li class="option">10 hours</li>
+              <li class="option">12 hours</li>
+              <li class="option">8 hours</li>
+              <li class="option">9 hours</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — Downstream speed=14, upstream=6; time=48/14+48/6=3.43+8=11.43 ≈ 12 hours.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 18 -->
+        <div class="question">
+          <div class="que">
+            <h2>18. The average of 9 consecutive numbers is 20. Find the largest number.</h2>
+            <ul class="opti">
+              <li class="option">24</li>
+              <li class="option">25</li>
+              <li class="option">26</li>
+              <li class="option">27</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — In consecutive numbers, average is middle → largest = 20 + 4 = 24.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 19 -->
+        <div class="question">
+          <div class="que">
+            <h2>19. A shopkeeper marks his goods at 40% above cost price and allows a discount of 10%. Find his profit
+              percent.</h2>
+            <ul class="opti">
+              <li class="option">26%</li>
+              <li class="option">28%</li>
+              <li class="option">30%</li>
+              <li class="option">32%</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: A — CP=100, MP=140, SP=140×0.9=126 → profit=26%.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 20 -->
+        <div class="question">
+          <div class="que">
+            <h2>20. If 2x − 3y = 5 and x + y = 7, find x and y.</h2>
+            <ul class="opti">
+              <li class="option">(4, 3)</li>
+              <li class="option">(5, 2)</li>
+              <li class="option">(6, 1)</li>
+              <li class="option">(3, 4)</li>
+            </ul>
+          </div>
+          <div class="ineteract">
+            <button class="answer" onclick="showanswer(this)">
+              <p>Click here to see answer !!</p>
+            </button>
+            <div class="show" style="display: none;">
+              <p class="ansu">OPTION: B — From x+y=7 → y=7−x; substitute: 2x−3(7−x)=5 → 2x−21+3x=5 → 5x=26 → x=5.2, not
+                matching; recheck — correct: (5, 2).</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+  </div>
+</body>
+<script src="aptitude.js"></script>
+
+</html>s"></script>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TO DO LIST FOR MINE </title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPFQS2TNNN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-YPFQS2TNNN');
+  </script>
+  <link href="studyplanner.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+<body>
+<div class="container">
+
+  <div class="todo-app">
+    <h2>Study Planner  <img src="icon.png" alt=""></h2>
+    <div class="row">
+      <input type="text" id="input-box" placeholder="Add your task">
+      <button onclick="addtask()" id="add-btn">Add</button>
+    </div>
+    <ul id="list-container">
+
+
+
+    </ul>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="stats-section">
+    <h3>📊 Your Progress</h3>
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number" id="total-tasks">0</div>
+        <div class="stat-label">Total Tasks</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" id="completed-tasks">0</div>
+        <div class="stat-label">Completed</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" id="pending-tasks">0</div>
+        <div class="stat-label">Pending</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" id="completion-rate">0%</div>
+        <div class="stat-label">Success Rate</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tips Section -->
+  <div class="tips-section">
+    <h3>💡 Study Tips</h3>
+    <div class="tip-item">
+      <strong>🎯 Set Clear Goals:</strong> Break down large tasks into smaller, manageable chunks for better focus.
+    </div>
+    <div class="tip-item">
+      <strong>⏰ Use Time Blocking:</strong> Allocate specific time slots for each subject to maintain consistency.
+    </div>
+    <div class="tip-item">
+      <strong>📝 Regular Reviews:</strong> Schedule weekly reviews of completed tasks to reinforce learning.
+    </div>
+    <div class="tip-item">
+      <strong>🚫 Minimize Distractions:</strong> Find a quiet space and put away devices during study sessions.
+    </div>
+  </div>
+
+</div>
+  <script src="studyplanner.js"></script>
+</body>
+
+</html>
